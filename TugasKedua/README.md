@@ -1,26 +1,20 @@
-                                    WORKSHOP ADMINISTRASI JARINGAN
+WORKSHOP ADMINISTRASI JARINGAN
+Tugas 2 No 1
 
-                                            Tugas 2 No 1
+Dosen Pengampu :
 
+Dr. Ferry Astika Saputra,ST, M.Sc
+Disusun Oleh:
+Zahrotul Hidayah        (3122500004)
 
-                                            Dosen Pengampu :
+Leody Zelvon Herliansa  (3122500010)
 
-                                    Dr. Ferry Astika Saputra,ST, M.Sc
-
-                                            Disusun Oleh:
-
-                                Zahrotul Hidayah        (3122500004)
-
-                                Leody Zelvon Herliansa  (3122500010)
-
-                                Adam Rasyid Nurmuhammad (3122500018)
+Adam Rasyid Nurmuhammad (3122500018)
 
  
-                                Politeknik Elektronika Negeri Surabaya
-
-                                            Tahun Akademik
-
-                                                2023/2024
+Politeknik Elektronika Negeri Surabaya
+Tahun Akademik
+2023/2024
 
 
 
