@@ -17,6 +17,10 @@ Adam Rasyid Nurmuhammad (3122500018)
 
 
 
+
+
+
+
 Berdasarkan Referensi dari https://www.debianadmin.com/linux-directory-structure-overview.html
 
 
