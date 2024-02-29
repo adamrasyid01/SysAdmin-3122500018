@@ -6,16 +6,13 @@ Dosen Pengampu :
 Dr. Ferry Astika Saputra,ST, M.Sc
 
 Disusun Oleh:
+
 Zahrotul Hidayah        (3122500004)
 
 Leody Zelvon Herliansa  (3122500010)
 
 Adam Rasyid Nurmuhammad (3122500018)
 
- 
-Politeknik Elektronika Negeri Surabaya
-Tahun Akademik
-2023/2024
 
 
 
