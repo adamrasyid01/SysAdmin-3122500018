@@ -2,7 +2,7 @@
 
 | TUGAS | FILE |
 | ------| -----|
-| TUGAS 1|  [FILE]([README.md](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/README.md)) |
+| TUGAS 1|  [FILE][README.md](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/README.md)) |
 | [TUGAS 2](#tugas-2) | [FILE](https://github.com/Reza1290/SysAdmin-3122500024/blob/main/TUGAS_2/README.md) , [MARP CLICK](TUGAS_2/PPT_SYSADMIN.md), [PDF MARP](TUGAS_2/PPT_SYSADMIN.pdf)|
 
 # Disusun Oleh
