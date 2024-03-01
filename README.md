@@ -112,30 +112,30 @@ Berdasarkan Referensi dari [Debian Directory Structure](https://www.debianadmin.
 
 ## Directory File Linux yang terinstalasi
 
-![alt text](/assets//assets/img/directorylinux.png)
+![alt text](Tugas_2/assets/img/directorylinux.png)
 
-# (Soal 2) [MARP Presentation](/assets/2_Slide_SystemAdministrasi.md)
+# (Soal 2) [MARP Presentation](Tugas_2/assets/2_Slide_SystemAdministrasi.md)
 
 
 ## (Soal 3) Mengubah IP Address secara manual
 
 **Langkah Pertama: Cek IP laptop** > dengan $ ipaddr
-![alt text](/assets/img/ip_addr.png)
+![alt text](Tugas_2/assets/img/ip_addr.png)
 
 **Langkah Kedua: Masuk root untuk mengecek rute dari IP**
-![alt text](/assets/img/route-n.png)
+![alt text](Tugas_2/assets/img/route-n.png)
 
 **Langkah Ketiga: Cek dhcp Client**
-![alt text](/assets/img/dhclient.png)
+![alt text](Tugas_2/assets/img/dhclient.png)
 
 
 **Langkah Keempat:Cek untuk browser sebelum diset Ip nya secara manual**
-![alt text](/assets/img/tesbefore.png)
+![alt text](Tugas_2/assets/img/tesbefore.png)
 
 **Langkah Kelima: Pergi ke Wired Setting**
-![alt text](/assets/img/settingwired.png)
+![alt text](Tugas_2/assets/img/settingwired.png)
 
 **Langkah Keenam: Setting IPv4 secara manual**
-![alt text](/assets/img/setting_address.png)
+![alt text](Tugas_2/assets/img/setting_address.png)
 
 Selesai
