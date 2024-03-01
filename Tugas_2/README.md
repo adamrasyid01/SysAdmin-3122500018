@@ -11,7 +11,7 @@
 | ---- | --- |
 | [Zahrotul Hidayah](https://github.com/zah1703)| 3122500004 |
 | [Leody Zelvon Herliansa](https://github.com/Leodyz)| 3122500012 |
-| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500011 |                                   
+| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 |                                   
 
 
 # TUGAS 2
