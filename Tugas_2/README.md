@@ -1,9 +1,5 @@
-# DAFTAR TUGAS WORKSHOP ADMINISTRASI JARINGAN
-
-| TUGAS | FILE |
-| ------| -----|
-| TUGAS 1|  [Tugas_Satu](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas1.md) |
-| TUGAS 2| [FILE](Tugas_2) , [MARP](TUGAS_2/PPT_SYSADMIN.md), [PDF MARP](TUGAS_2/PPT_SYSADMIN.pdf)|
+                     
+# TUGAS 2
 
 # Disusun Oleh
 
@@ -11,10 +7,7 @@
 | ---- | --- |
 | [Zahrotul Hidayah](https://github.com/zah1703)| 3122500004 |
 | [Leody Zelvon Herliansa](https://github.com/Leodyz)| 3122500010 |
-| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 |                                   
-
-
-# TUGAS 2
+| [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 |     
 
 
 
