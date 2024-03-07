@@ -120,4 +120,4 @@ img
 ### DEBI Application
 
 Kita dapat menginstall package External (.deb) menggunakan aplikasi Gdebi yang dapat diinstall dengan cara berikut.
-![apt update apt gdebi](Tugas_3/assets/16_apt_install_apt_gdebi.png)
+![apt update apt gdebi](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/16_apt_install_apt_gdebi.png)
