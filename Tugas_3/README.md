@@ -34,21 +34,21 @@
 ## Cara menggunakan APT command
 > Mengubah Repository Apt (pastikan gunakan sudo)
 
-![Update Dependencies](Tugas_3/assets/apt_sourceslist.png)
+![Update Dependencies](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/apt_sourceslist.png)
 
 > Setelah melakukan update dan upgrade untuk depedency, kita bisa install aplikasi menggunakan Aplikasi Software Bawaan
 
-![Software Terinstall](Tugas_3/assets/software_terinstall.png)
+![Software Terinstall](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/software_terinstall.png)
 
 ### Melihat Storage yang terpakai di linux menggukan Terminal
 
-![Free Storage](Tugas_3/assets/3_disk_free.png)
+![Free Storage](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/3_disk_free.png)
 
 ### Membuat daftar Directory, diurutkan dari yang terbesar yang terkecil
 
 > Melihat isi direktori dengan perintah du dan sort (satuan megabyte):
 
-![Sorting Directory](Tugas_3/assets/4_du_sort.png)
+![Sorting Directory](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/4_du_sort.png)
 
 ### Perintah ncdu (NCurses Disk Usage)
 
@@ -58,15 +58,15 @@ Install terlebih dahulu ncdu dengan menggunakan perintah
 
 > apt update && apt install ncdu
 
-![Install Package ncdu](Tugas_3/assets/5_install_ncdu.png)
+![Install Package ncdu](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/5_install_ncdu.png)
 
 Akses ncdu dengan command $ ncdu
-![Tampilan ncdu](Tugas_3/assets/6_UI_ncdu.png)
+![Tampilan ncdu](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/6_UI_ncdu.png)
 
 ### Perintah baobab
 Digunakan untuk menganalisa ruang pada disk dengan tampilan grafis 
 Ketikkan perintah $ baobab
-![Tampilan baobab](Tugas_3/assets/7_tampilan_baobab.png)
+![Tampilan baobab](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/7_tampilan_baobab.png)
 
 ### Membersihkan Package
 
@@ -78,22 +78,22 @@ Untuk membersihkan "apt cache" gunakan perintah apt clean.
 
 Setelah cache dari paket yang diinstal dibersihkan, Kita juga dapat menghapus paket yang tidak berguna dari sistem, serta file konfigurasi. Namun Ingatlah untuk memeriksa dengan cermat daftar paket yang direncanakan untuk dihapus, sebelum menerima operasi:
 
-![Apt remove](Tugas_3/assets/8_apt_remove.png)
+![Apt remove](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/8_apt_remove.png)
 
 Jika sistem telah diupgrade ke versi terbaru, ada kemungkinan beberapa paket tidak lagi tersedia di repositori baru (paket tersebut sudah usang). Untuk membuat daftar dan menghapus paket-paket ini, gunakan apt dan periksa dengan cermat daftar paket yang direncanakan untuk dihapus:
-![Apt remove obsolete](Tugas_3/assets/9_apt_remove_obsolete.png)
+![Apt remove obsolete](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/9_apt_remove_obsolete.png)
 
 Terakhir, untuk membuat daftar dan membersihkan file konfigurasi yang tetap ada meskipun aplikasi telah dihapus, gunakan perintah berikut :
-![Dpkg list](Tugas_3/assets/10_dpkg_awk_rc.png)
+![Dpkg list](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/10_dpkg_awk_rc.png)
 
 **deborphan**
 
 Mencantumkan paket-paket yang diadopsi pada sistem : paket-paket yang tidak bergantung pada paket lain.
 
 Ingatlah untuk memeriksa dengan cermat daftar paket yang direncanakan untuk dihapus, sebelum menjalankan operasi.
-![Install deborphan](Tugas_3/assets/11_install_deborphan.png)
+![Install deborphan](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/11_install_deborphan.png)
 
-![Autoremove deborphan](Tugas_3/assets/12_autoremove_deborphan.png)
+![Autoremove deborphan](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/12_autoremove_deborphan.png)
 
 ### Mengosongkan trash-bin
 
@@ -102,18 +102,18 @@ Tiga trash-bin (wastebasket) yang berbeda harus dipertimbangkan:
 **trash-bin user**
 
 Anda dapat mengosongkannya dengan system file manager atau dengan perintah :
-![rm -Rf](Tugas_3/assets/13_rm_Rf.png)
+![rm -Rf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/13_rm_Rf.png)
 
 **trash-bin admin**
 
 Untuk mengosongkannya dengan cara yang benar, gunakan terminal dalam mode administrator:
-![rm -Rf cache](Tugas_3/assets/14_rm_rf_cache.png)
+![rm -Rf cache](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/14_rm_rf_cache.png)
 
 **trash-bin eksternal**
 
 biasanya diberi nama '/media/(loginname)/your_disk/.Trash_1000'.
 img
-![rm -Rf thumbnails](Tugas_3/assets/15_rm_rf_thumbnails.png)
+![rm -Rf thumbnails](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/15_rm_rf_thumbnails.png)
 
 # Menginstall Package EXTERNAL Extensi .deb
 
