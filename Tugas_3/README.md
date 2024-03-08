@@ -5,7 +5,7 @@
 | NAMA | NRP |
 | ---- | --- |
 | [Zahrotul Hidayah](https://github.com/zah1703)| 3122500004 |
-| [Leody Zelvon Herliansa](https://github.com/Leodyz)| 3122500012 |
+| [Leody Zelvon Herliansa](https://github.com/Leodyz)| 3122500010 |
 | [Adam Rasyid Nurmuhammad](https://github.com/adamrasyid01)| 3122500018 | 
 
 **DAFTAR ISI**
