@@ -4,6 +4,7 @@
 | ------| -----|
 | TUGAS 1|  [Tugas_Satu](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas1.md) |
 | TUGAS 2| [FILE](Tugas_2) , [MARP](Tugas_2/assets/2_Slide_SystemAdministrasi.md)|
+| TUGAS 3| [Tugas 3](https://github.com/adamrasyid01/SysAdmin-3122500018/tree/main/Tugas_3#tugas-3)|
 
 # Disusun Oleh
 
