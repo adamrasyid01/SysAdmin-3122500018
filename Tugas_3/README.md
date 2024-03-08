@@ -134,6 +134,7 @@ Sekarang kita coba melakukan installasi untuk paket dari aplikasi VSCODE dan pas
 
 Langkah-langkah : 
 1.Buka Gdebui
+
 2.Buka File .deb
 ![Buka Package](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/18_package_installer.png)
 
