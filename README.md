@@ -142,6 +142,7 @@ Sekarang kita coba melakukan installasi untuk paket dari aplikasi VSCODE dan pas
 ![apt update apt gdebi](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/16_apt_install_apt_gdebi.png)
 
 Langkah-langkah : 
+
 1.Buka Gdebui
 
 2.Buka File .deb
