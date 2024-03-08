@@ -138,6 +138,41 @@ img
 Kita dapat menginstall package External (.deb) menggunakan aplikasi Gdebi yang dapat diinstall dengan cara berikut.
 ![apt update apt gdebi](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/16_apt_install_apt_gdebi.png)
 
+Sekarang kita coba melakukan installasi untuk paket dari aplikasi VSCODE dan pastikan paket berextensi .deb
+![apt update apt gdebi](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/16_apt_install_apt_gdebi.png)
+
+Langkah-langkah : 
+1.Buka Gdebui
+
+2.Buka File .deb
+![Buka Package](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/18_package_installer.png)
+
+3.Disini jika file sudah terpilih kita dapat melihat detail paketnya
+
+![FIle terpilih](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/20_install.png)
+
+4.Paket akan dipasang dan tunggu sampai selesai
+[Paket diinstal](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/21_proses_installing.png)
+[Install selesai](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/22_installation_finished.png)
+
+5.Search VSCode
+[Cek VSCODE](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/23_cek_vscode.png)
+
+6.Cara remove Package
+[Remove Manual](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/24_remove_package.png)
+
+**Menggunakan Terminal (dpkg command)**
+1.Buka Terminal
+[Remove dpkg from terminal](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/25_hapusdengan_dpkg.png)
+
+
+2.Gunakan dpkg -i namapaket.deb untuk memasang
+
+3.Untuk melakukan uninstall gunakan dpkg --purge namaapp
+
+[Purge Code](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_3/assets/26_dpkg_purgecode.png)
+
+
 
 
 # Mengatur Subnet pada Mikrotik
