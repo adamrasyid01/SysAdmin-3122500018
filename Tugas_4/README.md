@@ -35,6 +35,7 @@ Jaringan internet bekerja berdasarkan rangkaian protokol komunikasi dan teknolog
 Berdasarkan referensi [Penjelasan DNS](https://www.hostinger.co.uk/tutorials/what-is-dns)
 
 **Query DNS**
+[Gambar Cara kerja DNS](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/how-does-dns-work-1024x590.png)
 
 - Langkah 1 : Klien memasukkan www.detik.com ke dalam browser dan menekan Enter. Sebuah DNS query untuk alamat IP (record a) dikirim oleh resolver sistem operasi ke server DNS.
 
