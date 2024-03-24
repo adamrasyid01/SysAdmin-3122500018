@@ -58,4 +58,54 @@ Berdasarkan referensi [Penjelasan DNS](https://www.hostinger.co.uk/tutorials/wha
 
 # 3. Config BIND9
 
+1. Instalasi  BIND 9
+
+![Instalasi](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/1.sudoaptbind9.png)
+
+2. Cek Instalasi di  /etc/bind
+![Cek](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/2.cd_etc_bind%20ls-al.png)
+
+3. Cek Konfigurasi utama bind di named.conf
+![Cek named.conf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/4.named_conf.png)
+![less named.conf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/3.less_named.conf.png)
+
+4. Buka named.conf.local, untuk mengset atau konfigurasi zone file. Melakukan pengubahan zone sesuai nama kelompok.
+![named.conf.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/5.nano_named_conf_local.png)
+
+5. Buka named.conf.option, mengisi provider dan listen-on. Listen ditambahkan sesuai kelompok masing-masing
+![named.conf.options](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/5.nano_named_conf_options.png)
+
+6. Lakukan sudo named-checkconf untuk mengeck pesan error. jika tidak ada pesan error yang keluar itu berarti konfigurasi yang dilakukan telah benar
+![named-checkconf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/6.named_checkconf.png)
+
+7. Pergi ke arah configuration zone file dengan mengetikkan cd /var/lib/bind
+
+8. Masuk ke zone file pertama dan mengubah data di dalamnya.
+![Zone File pertama](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/7.nano_dbkelompok8local.png)
+
+9. Masuk ke zone file kedua (.inv) untuk mengubah data seperti file sebelumnya
+![Zone File Kedua](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/8.nano_dbkelompok8localinv.png)
+
+10. Cek dengan menggunakan perintah ls -al untuk memastikan kedua file telah terbuat
+![ls -al](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/9.ls-al_setelahbuat_dbkelompok8local.png)
+
+11. Lakukan sudo named-checkzone untuk mengetahui perubahan terakhir pada zone file dan inverse file. 
+![named-checkzone](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/10.namedcheckzone_kelompok8.local_db.kelompok8.local.png)
+
+12. Jalankan sudo systemctl restart named untuk menjalankan sistem bind.
+![restart,status named](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/11.sudo_systemctl_restart%2Cstatus_named.png)
+
+13. Pergi ke file /etc/resolv.conf untuk set DNS yang telah kita atur
+![etc/resolv.conf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/new12.sudo_nano_etcresolvconf.png)
+
+14. Jalankan perintah sudo netstat -ptlun untuk menampilkan daftar koneksi jaringan yang aktif (baik incoming maupun outgoing) serta port yang sedang digunakan
+![netstat](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/13.sudo_netstat_ptlun.png)
+
+15. Gunakan perintah dig
+![dig kelompok8.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/14.dig_kelompok8local.png)
+![dig +x ip](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/15.dig-x_192.168.136.10.png)
+
+16. Gunakan perintah nslookup (Perintah Error)
+
+
 
