@@ -105,7 +105,8 @@ Berdasarkan referensi [Penjelasan DNS](https://www.hostinger.co.uk/tutorials/wha
 ![dig kelompok8.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/14.dig_kelompok8local.png)
 ![dig +x ip](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/15.dig-x_192.168.136.10.png)
 
-16. Gunakan perintah nslookup (Perintah Error)
+16. Gunakan perintah nslookup untuk mengecek instalasi berhasil atau tidak
+![nslookup ns.kelompok8.local](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_4/assets/16.nslookup%20nskelompok8local.png)
 
 
 
