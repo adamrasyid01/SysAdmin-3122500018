@@ -304,7 +304,7 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 
 **5. file config.inc.php**
 
-![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/66.%20Line%2027%2C31%2C35%2C35%2C39%20config.inc.php.png)
+![Config.inc.php](https://github.com/adamrasyid01/SysAdmin3122500018/blob/main/Tugas_5/assets/66.%20Line%2027%2C31%2C35%2C35%2C39%20config.inc.php.png)
 
 ![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/67.%20Line%2046.png)
 
@@ -314,7 +314,7 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 
 **6. uncomment file  /etc/apache2/conf-enabled/roundcube.conf**
 
-![Uncomment](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/69.%20line%203%20dan%2011.png)
+![Uncomment](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/69.new%20line%203%20dan%2011.png)
 
 **7. Ganti Config di /etc/apache2/mods-enabled/dir.conf**
 
@@ -324,7 +324,7 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 
 ![Restart Apache](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/70.%20restart%20apache2.png)
 
-**8. Hasil**
+**9. Hasil**
 
 ![Hasil Roundcube](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/86.hasil%20roundcube.png)
 
