@@ -304,9 +304,7 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 
 **5. file config.inc.php**
 
-![Config.inc.php](https://github.com/adamrasyid01/SysAdmin3122500018/blob/main/Tugas_5/assets/66.%20Line%2027%2C31%2C35%2C35%2C39%20config.inc.php.png)
-
-![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/67.%20Line%2046.png)
+![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/66.%20Line%2027%2C31%2C35%2C35%2C39%20config.inc.php.png)
 
 - Add Dipaling bawah
 - 
