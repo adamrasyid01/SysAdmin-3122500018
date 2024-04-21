@@ -307,7 +307,7 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 ![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/66.%20Line%2027%2C31%2C35%2C35%2C39%20config.inc.php.png)
 
 - Add Dipaling bawah
-- 
+  
 ![Add](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/68.1.%20Add%20di%20paling%20bawah%20bagian%20satu.png)
 
 **6. uncomment file  /etc/apache2/conf-enabled/roundcube.conf**
