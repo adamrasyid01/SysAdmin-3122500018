@@ -309,24 +309,26 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 ![Config.inc.php](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/67.%20Line%2046.png)
 
 - Add Dipaling bawah
-
-
+- 
 ![Add](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/68.1.%20Add%20di%20paling%20bawah%20bagian%20satu.png)
-
-![Add](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/68.2.%20Add%20di%20paling%20bawah%20bagian%20dua.png)
 
 **6. uncomment file  /etc/apache2/conf-enabled/roundcube.conf**
 
 ![Uncomment](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/69.%20line%203%20dan%2011.png)
 
-**7. Restart apache 2**
+**7. Ganti Config di /etc/apache2/mods-enabled/dir.conf**
+
+![Ganti Config](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/85.ganti%20apache2%20mods-enabled.png)
+
+**8. Restart apache 2**
 
 ![Restart Apache](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/70.%20restart%20apache2.png)
 
 **8. Hasil**
-![Restart Apache](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/70.1%20hasil.png)
 
-Mohon maaf masih error untuk roundcubenya
+![Hasil Roundcube](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/86.hasil%20roundcube.png)
+
+
 
 
 
