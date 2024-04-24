@@ -17,6 +17,8 @@
     - DOVECOT
 6. [RoundCube](#roundcube)
 
+7. [Setting Mailserver untuk LabC307](#setting-mailserver-untuk-jaringan-di-lab-c307)
+
 
 ## Install NTP Client
 
@@ -327,19 +329,41 @@ delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sen
 ![Hasil Roundcube](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/86.hasil%20roundcube.png)
 
 
+## Setting Mailserver untuk jaringan di Lab C307
 
+**1. Ubah pada setting network pada virtual machine ke Bridged Adapter dan ganti adapter sesuai dengan hasil command ipconfig/all yaitu Realtek USB FE Family Controller 2**
 
+![Virtual Machine](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/87.%20Setting%20ke%20Network%20Bridge%20Adapter.png)
 
+**2. Rubah juga konfigurasi di sudo nano /etc/resolv.conf tambahkan nameserver 192.168.8.10 seperti dibawah berikut:**
 
-  
-  
+![resolv.conf](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/4.%20setting%20etc%20resolv.conf.png)
 
+**3. Setelah itu coba tes ping IP kelompok lain yaitu kelompok 1 dengan command ping ns.kelompok1.local jika konfigurasi network benar maka maka hasilnya akan seperti berikut:**
 
+![ping kelompok lain](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/2.ping%20kelompok%20lain.png)
 
+**4. Coba juga tes nslookup ke kelompok lain dengan command nslookup kelompok1.local jika konfigurasi network benar maka akan seperti dibawah ini:**
+![ns lookup](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/5.ns%20lookup%20kelompok%20lain.png)
 
+**5. Buka browser dan coba test apakah bisa mengakses webmail (roundcube) kelompok lain disini saya mencoba mengakses ke webmail kelompok 2 dengan alamat mail.kelompok2.local Jika berhasil maka akan tampil seperti berikut:**
 
-   
+![Roundcube Kelompok 2](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/test%20roundcube%20kelompok%20lain.png)
 
+**6. Buka browser dan coba test apakah bisa mengakses webmail (roundcube) dengan alamat mail.kelompok8.local/roundcube Jika berhasil maka akan tampil seperti berikut:**
 
+![Roundcube kelompok 8](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/86.hasil%20roundcube.png)
 
+**7. Jika network static tidak bekerja dan tidak bisa tampil seperti diatas maka coba buka sudo nano /etc/network/interfaces buat auto network dengan mengcomment konfigurasi static pada seperti dibawah ini:**
 
+![etc Network Interfaces](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/3.%20setting%20etc%20network%20interfaces.png)
+
+**8. Lalu setup manual IPv4 dengan IP addres 192.168.8.10 netmask 255.255.255.0 gateway 192.168.4.1 dan DNS 10.10.10.1**
+
+**9. Hasil Akhir**
+
+Login ke rouncube dengan user dan password yang sudah disetup. pada kasus ini saya bisa mengirim dan menerima pesan dari user lain seperti pada gambar dibawah ini:
+
+![Tampilan message email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/6.berhasil%20kirim%20roundcube.png)
+
+![Tampilan message email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/1.Hasil%20Kirim%20Email%20local.png)
