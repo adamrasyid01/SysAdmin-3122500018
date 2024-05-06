@@ -20,6 +20,10 @@
 7. [Setting Mailserver untuk LabC307](#setting-mailserver-untuk-jaringan-di-lab-c307)
 
 
+**Tambahan Minggu 10 (Senin 29 April 2024)**
+
+8. [Analisis Header Email](#analisis-header-email)
+
 ## Install NTP Client
 
 **1. Lakukan instalasi paket layanan sinkronisasi waktu**
@@ -367,3 +371,46 @@ Login ke rouncube dengan user dan password yang sudah disetup. pada kasus ini sa
 ![Tampilan message email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/6.berhasil%20kirim%20roundcube.png)
 
 ![Tampilan message email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/1.Hasil%20Kirim%20Email%20local.png)
+
+## Analisis Header Email
+
+1. Message Header Pada Email dengan attachment File
+
+![Berhasil Kirim Email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/email%20halo%20aku%20syahrul.png)
+
+![Gambar Header Email](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/message%20header%20file.png)
+
+![Subject MIME](https://github.com/adamrasyid01/SysAdmin-3122500018/blob/main/Tugas_5/assets/subject%20mime.png)
+
+
+> Return-Path: Alamat email yang digunakan untuk pengiriman balasan.
+
+> X-Original-To:  memberikan informasi tentang alamat email asli penerima sebelum proses pengiriman email dilakukan
+
+> Delivered-To: Memberikan informasi tentang alamat email yang akhirnya menerima email tersebut setelah melalui proses pengiriman dan pengalihan
+
+> Received: Informasi tentang server yang menerima email dan alamat IP asli pengirim.
+
+> MIME-Version: Versi MIME (Multipurpose Internet Mail Extensions) yang digunakan.
+
+> Date: Waktu pengiriman email.
+
+> From: Alamat email pengirim.
+
+> To: Alamat email penerima.
+
+> Subject: Berisi subjek atau judul dari email yang dikirim. Subjek ini biasanya memberikan gambaran tentang konten atau tujuan dari email tersebut.
+
+> User-Agent: Mengidentifikasi perangkat atau program email yang digunakan oleh pengirim untuk mengirim email. Informasi ini dapat mencakup nama dan versi perangkat lunak email yang digunakan.
+
+> Message-ID: Identifikasi unik yang terkait dengan email tertentu. Setiap email memiliki Message-ID yang berbeda, dan header ini digunakan untuk melacak dan mengidentifikasi email secara unik.
+
+> X-Sender: Header "X-Sender" mungkin mengandung informasi tentang alamat email pengirim. Namun, perlu diingat bahwa header yang dimulai dengan "X-" sering kali merupakan header tambahan yang bisa diatur atau dimanipulasi oleh pengirim atau server email.
+
+> Content-Type: Header "Content-Type" menentukan tipe konten dari email, seperti teks biasa (text/plain), HTML (text/html), gambar, lampiran, atau tipe konten lainnya. Informasi ini membantu client email dalam menampilkan email dengan benar sesuai dengan formatnya.
+
+*Content-Type: Multipart/mixed*
+
+Multipart/mixed digunakan ketika sebuah email mengandung kombinasi dari teks biasa (text/plain), HTML (text/html), gambar, lampiran, atau jenis konten lainnya yang berbeda. Setiap bagian dari email yang berbeda ini disebut dengan "part", dan bagian-bagian ini diatur dalam satu "multipart" message.
+
+Misalnya, email yang mengandung teks biasa bersama dengan lampiran berupa dokumen PDF, maka email tersebut akan menggunakan Content-Type: Multipart/mixed. Bagian pertama dari email akan berisi teks biasa (text/plain), sedangkan bagian kedua akan berisi lampiran PDF (application/pdf).
