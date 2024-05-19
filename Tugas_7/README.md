@@ -8,10 +8,15 @@
 
 **DAFTAR ISI**
 
-
-
-1. []() Getting Started
-
+1. [Getting started](#1-getting-started) 
+2. [Our Application ](#2-our-application)
+3. [Updating our App](#3-updating-our-app)
+4. [Sharing our app](#4-sharing-our-apps)
+5. [Persisting our db](#5-persisting-our-db)
+6. [Using bind mound](#6-using-bind-mounts)
+7. [Multi container app](#7-multi-container-app)
+8. [Using Docker Compose](#8-using-docker-compose)
+9. [Image Building best practice](#9-image-building-best-practices)
 
 # 1. Getting Started
 
